@@ -27,6 +27,7 @@
     "license": "LGPL-3",
     "depends": [
         "account",
+        "l10n_ve", # Necesario para que el sistema reconozca 'base.ve'
         "account_accountant", # Necesario para las funciones de template en Odoo 19
     ],
     "data": [
