@@ -27,8 +27,4 @@
     "license": "LGPL-3",
     "depends": [
         "account",
-    ],
-    "demo": [
-        "demo/demo_company.xml",
-    ],
-}
+    }
