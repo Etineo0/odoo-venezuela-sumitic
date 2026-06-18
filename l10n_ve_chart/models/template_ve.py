@@ -11,10 +11,10 @@ class AccountChartTemplate(models.AbstractModel):
         return {
             "name": _("Venezuela"),
             "code_digits": "7",
-            "property_account_receivable_id": "account_1122001",
-            "property_account_payable_id": "account_2122001",
-            "property_account_expense_categ_id": "account_7151001",
-            "property_account_income_categ_id": "account_5111001",
+            "property_account_receivable_id": "l10n_ve_chart.account_1122001",
+            "property_account_payable_id": "l10n_ve_chart.account_2122001",
+            "property_account_expense_categ_id": "l10n_ve_chart.account_7151001",
+            "property_account_income_categ_id": "l10n_ve_chart.account_5111001",
         }
 
     @template("ve", "res.company")
@@ -25,10 +25,10 @@ class AccountChartTemplate(models.AbstractModel):
                 "bank_account_code_prefix": "1113",
                 "cash_account_code_prefix": "1111",
                 "transfer_account_code_prefix": "1129003",
-                "account_default_pos_receivable_account_id": "account_1122003",
-                "income_currency_exchange_account_id": "account_9212003",
-                "expense_currency_exchange_account_id": "account_9113006",
-                "account_sale_tax_id": "tax_iva16_sale",
-                "account_purchase_tax_id": "tax_iva16_purchase",
+                "account_default_pos_receivable_account_id": "l10n_ve_chart.account_1122003",
+                "income_currency_exchange_account_id": "l10n_ve_chart.account_9212003",
+                "expense_currency_exchange_account_id": "l10n_ve_chart.account_9113006",
+                "account_sale_tax_id": "l10n_ve_chart.tax_iva16_sale",
+                "account_purchase_tax_id": "l10n_ve_chart.tax_iva16_purchase",
             },
         }
