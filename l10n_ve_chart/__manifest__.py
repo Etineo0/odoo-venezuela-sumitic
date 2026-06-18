@@ -27,5 +27,13 @@
     "license": "LGPL-3",
     "depends": [
         "account",
+        "account_accountant", # Necesario para las funciones de template en Odoo 19
     ],
+    "data": [
+        "data/template/account.tax.group.csv",
+        "data/template/account.tax.csv",
+        "data/template/account.account.csv",
+    ],
+    "installable": True,
+    "auto_install": False,
 }
