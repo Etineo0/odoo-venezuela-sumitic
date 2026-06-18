@@ -11,18 +11,21 @@
         Plan de Cuentas para Venezuela — Sumitic C.A.
         ==============================================
 
-        Localización contable para Venezuela compatible con Odoo 19.
+        Localización contable para Venezuela compatible con Odoo 19,
+        desarrollada y mantenida por Sumitic C.A.
+
+        Homologación contable adaptada a los requerimientos del SENIAT
+        y las prácticas contables venezolanas vigentes.
+
+        Este módulo provee:
+        - Plan de cuentas de 7 dígitos basado en prácticas venezolanas
+        - Grupos de impuestos: IVA 0%, 8%, 16%, 31%
+        - Impuestos de venta y compra configurados con cuentas correctas
+        - Configuración de cuentas por defecto de la compañía
+        - Cuenta transitoria para transferencias bancarias
     """,
     "license": "LGPL-3",
     "depends": [
-        "account",
-        "account_accountant", # Necesario para las funciones de template
+        "account", "accountant"
     ],
-    "data": [
-        "data/template/account.tax.group.csv",
-        "data/template/account.tax.csv",
-        "data/template/account.account.csv",
-    ],
-    "installable": True,
-    "auto_install": False,
 }
