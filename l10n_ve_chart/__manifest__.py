@@ -16,7 +16,6 @@
     "license": "LGPL-3",
     "depends": [
         "account",
-        "l10n_ve",           # CRUCIAL: Esto crea el registro 'base.ve'
         "account_accountant", # Necesario para las funciones de template
     ],
     "data": [
