@@ -1,0 +1,15 @@
+from . import (
+    transfer_reason,
+    res_company,
+    res_config_settings,
+    sale_order,
+    sale_order_line,
+    res_partner,
+    stock_move,
+    stock_picking,
+    stock_location,
+    account_move,
+    account_move_line,
+    stock_move_line,
+    stock_warehouse,
+)
